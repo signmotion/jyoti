@@ -75,8 +75,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>..\build\$(Platform)\$(ProjectName)\$(Solution)$(Configuration)\</OutDir>
     <IntDir>..\build\temp\$(Platform)\$(ProjectName)\$(Solution)$(Configuration)\</IntDir>
-    <IncludePath>D:\googletest\include;../jyoti/include/;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\googletest\msvc\x64\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\gmock-1.7.0\gtest\include;../jyoti/include/;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\gmock-1.7.0\gtest\build\x64\gtest-md\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
