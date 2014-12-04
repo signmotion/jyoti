@@ -7,6 +7,8 @@
 #include <string>
 
 
+// @see The project "denotat". https://bitbucket.org/signmotion/denotat
+
 // @source Названия > http://vohuman.ru/sanskrit.html?start=5
 
 
